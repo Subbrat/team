@@ -1,15 +1,5 @@
 @charset "UTF-8";
 
-
-/* temp  */
-
-#edit {
-    position: absolute;
-    ;
-
-}
-
-/* x  */
 body {
     font-family: 'Poppins', sans-serif;
     color: #737789;
@@ -230,4 +220,21 @@ a:hover {
 
 .cap {
     text-transform: capitalize;
+}
+
+body {
+    animation: fadeInAnimation ease 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
